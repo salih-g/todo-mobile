@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "todoAppMobile",
+    "slug": "todoAppMobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "userInterfaceStyle": "dark"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF",
+        "userInterfaceStyle": "dark"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "userInterfaceStyle": "dark"
+    }
+  }
+}
